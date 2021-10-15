@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "chat-app": "chat-app-sofka"
+  },
+  "targets": {}
+}
