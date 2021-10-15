@@ -1,7 +1,7 @@
-package co.com.sofka.questions.usecases;
+package co.com.sofka.chatapp.usecases;
 
-import co.com.sofka.questions.model.AnswerDTO;
-import co.com.sofka.questions.model.QuestionDTO;
+import co.com.sofka.chatapp.model.AnswerDTO;
+import co.com.sofka.chatapp.model.QuestionDTO;
 import reactor.core.publisher.Mono;
 
 import javax.validation.Valid;
