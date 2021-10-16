@@ -13,7 +13,7 @@ public class MapperUtils {
 
     public Function<AnswerDTO, Answer> mapperToAnswer() {
         return updateAnswer -> {
-            var answer = new Answer();
+            Answer answer = new Answer();
             answer.setPosition(updateAnswer.getPosition());
             answer.setQuestionId(updateAnswer.getQuestionId());
             answer.setUserId(updateAnswer.getUserId());
@@ -24,7 +24,7 @@ public class MapperUtils {
 
     public Function<QuestionDTO, Question> mapperToQuestion(String id) {
         return updateQuestion -> {
-            var question = new Question();
+            Question question = new Question();
             question.setId(id);
             question.setUserId(updateQuestion.getUserId());
             question.setCategory(updateQuestion.getCategory());
