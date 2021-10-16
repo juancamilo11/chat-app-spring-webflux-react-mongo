@@ -1,11 +1,10 @@
-package co.com.sofka.chatapp.collections;
+package co.com.sofka.questions.collections;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
 public class Answer {
-
     @Id
     private String id;
     private String userId;
@@ -52,5 +51,4 @@ public class Answer {
     public void setAnswer(String answer) {
         this.answer = answer;
     }
-
 }

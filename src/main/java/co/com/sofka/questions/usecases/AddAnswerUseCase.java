@@ -1,8 +1,8 @@
-package co.com.sofka.chatapp.usecases;
+package co.com.sofka.questions.usecases;
 
-import co.com.sofka.chatapp.model.AnswerDTO;
-import co.com.sofka.chatapp.model.QuestionDTO;
-import co.com.sofka.chatapp.repository.AnswerRepository;
+import co.com.sofka.questions.model.AnswerDTO;
+import co.com.sofka.questions.model.QuestionDTO;
+import co.com.sofka.questions.reposioties.AnswerRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 import reactor.core.publisher.Mono;

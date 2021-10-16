@@ -1,8 +1,8 @@
-package co.com.sofka.chatapp.routers;
+package co.com.sofka.questions.routers;
 
-import co.com.sofka.chatapp.model.AnswerDTO;
-import co.com.sofka.chatapp.model.QuestionDTO;
-import co.com.sofka.chatapp.usecases.*;
+import co.com.sofka.questions.model.AnswerDTO;
+import co.com.sofka.questions.model.QuestionDTO;
+import co.com.sofka.questions.usecases.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;

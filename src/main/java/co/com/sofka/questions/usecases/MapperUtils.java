@@ -1,9 +1,9 @@
-package co.com.sofka.chatapp.usecases;
+package co.com.sofka.questions.usecases;
 
-import co.com.sofka.chatapp.collections.Answer;
-import co.com.sofka.chatapp.collections.Question;
-import co.com.sofka.chatapp.model.AnswerDTO;
-import co.com.sofka.chatapp.model.QuestionDTO;
+import co.com.sofka.questions.collections.Answer;
+import co.com.sofka.questions.collections.Question;
+import co.com.sofka.questions.model.AnswerDTO;
+import co.com.sofka.questions.model.QuestionDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.function.Function;

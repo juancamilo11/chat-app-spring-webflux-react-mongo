@@ -1,4 +1,4 @@
-package co.com.sofka.chatapp.config;
+package co.com.sofka.questions.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

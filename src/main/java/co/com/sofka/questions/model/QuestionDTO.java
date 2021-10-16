@@ -1,4 +1,4 @@
-package co.com.sofka.chatapp.model;
+package co.com.sofka.questions.model;
 
 
 import javax.validation.constraints.NotBlank;
